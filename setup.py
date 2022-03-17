@@ -1,4 +1,7 @@
-from __future__ import annotations
+import platform
+
+if platform.python_version() >= 3.7:
+    from __future__ import annotations
 
 from setuptools import setup
 
